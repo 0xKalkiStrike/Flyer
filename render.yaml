@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: flyer-verification-service
+    env: docker
+    plan: free # Change to starter/pro for more speed
+    region: ohio
+    envVars:
+      - key: PORT
+        value: 8002
+      - key: PYTHONPATH
+        value: /app
+    healthCheckPath: /health
