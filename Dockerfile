@@ -1,5 +1,5 @@
-# Use a Playwright-ready image from Microsoft
-FROM mcr.microsoft.com/playwright/python:v1.41.2-focal
+# Use a Playwright-ready image from Microsoft (Jammy has Python 3.10)
+FROM mcr.microsoft.com/playwright/python:v1.41.2-jammy
 
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
