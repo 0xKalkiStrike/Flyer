@@ -13,8 +13,15 @@ class PlaywrightEngine:
 
     async def start(self):
         playwright = await async_playwright().start()
-        # Launch browser in visible mode so the user can watch live verification progress
-        self.browser = await playwright.chromium.launch(headless=False, slow_mo=100, args=["--start-maximized"])
+        # On Render or other CI/CD environments, we must run headless (no window)
+        is_headless = os.environ.get("RENDER") == "true"
+        logger.info(f"Launching browser (Headless: {is_headless})")
+        
+        self.browser = await playwright.chromium.launch(
+            headless=is_headless, 
+            slow_mo=100, 
+            args=["--start-maximized", "--no-sandbox", "--disable-setuid-sandbox"]
+        )
         self.context = await self.browser.new_context(
             viewport={'width': 1920, 'height': 1080},
             user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
