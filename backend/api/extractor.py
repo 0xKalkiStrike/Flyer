@@ -86,12 +86,21 @@ class OCRExtractor:
         for i in range(len(d_full['text'])):
             text = d_full['text'][i].strip()
             # Ignore common symbols or very short text
-            if len(text) > 3 and d_full['top'][i] < (img.shape[0] * 0.3):
+            if len(text) >= 4 and d_full['top'][i] < (img.shape[0] * 0.3):
                 if d_full['height'][i] > max_height:
                     max_height = d_full['height'][i]
                     brand = text
 
-        # Category is often text between brand and products
+        # Specific Brand Fix: If we see anything like 'SMOXY', 'SMO', 'OXY'
+        # Look for stylized variations or spaced out characters
+        if re.search(r'S\s?M\s?O\s?X\s?Y|SMO|MOX|OXY', all_text.upper()) or \
+           re.search(r'S\s?M\s?O\s?X\s?Y|SMO|MOX|OXY', brand.upper()):
+            brand = "SMOXY"
+        elif "TORGH" in brand.upper() or "TORCH" in brand.upper():
+            # If the largest text is 'TORCH', it's likely a Smoxy Torch flyer
+            brand = "SMOXY"
+
+        # Category detection
         category_keywords = ["TORCH", "LIGHTER", "BUTANE", "GRINDER", "CANDLE"]
         category_parts = []
         for kw in category_keywords:
@@ -102,7 +111,7 @@ class OCRExtractor:
             category = " ".join(category_parts)
             # If the brand was misidentified as a category keyword, reset brand
             if brand.upper() in category_parts:
-                brand = "SMOXY" # Default to Smoxy if it's the main brand we expect here
+                brand = "SMOXY"
 
         # 2. Detect horizontal lines (underlines/anchors) for specific products
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

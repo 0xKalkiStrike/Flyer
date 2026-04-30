@@ -6,9 +6,15 @@ class StatusExtractor:
         """Normalize various website availability messages into standard states."""
         text = status_text.upper()
         
-        available_keywords = ["IN STOCK", "AVAILABLE", "ADD TO CART", "BUY NOW", "IN-STOCK"]
+        available_keywords = ["IN STOCK", "AVAILABLE", "ADD TO CART", "BUY NOW", "IN-STOCK", "LOGIN", "LOGIN TO BUY"]
         out_of_stock_keywords = ["OUT OF STOCK", "SOLD OUT", "UNAVAILABLE", "TEMPORARILY UNAVAILABLE", "RESTOCKING"]
         
+        # Special Case: Login means Available on this site
+        if "LOGIN" in text:
+            # Check for explicit negation
+            if "OUT OF STOCK" not in text and "SOLD OUT" not in text:
+                return "AVAILABLE"
+
         for kw in out_of_stock_keywords:
             if kw in text:
                 return "OUT_OF_STOCK"

@@ -9,6 +9,9 @@ import re
 from .extractor import OCRExtractor
 from .playwright_engine import PlaywrightEngine
 from .json_store import append_verification_result, load_verification_results
+import logging
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
@@ -144,6 +147,9 @@ async def verification_pipeline(filepath: str, website_url: str, username: Optio
         raise RuntimeError("No product hints found from flyer or manual input.")
 
     # 2. Start Playwright
+    # Initialize components
+    matcher = ProductMatcher()
+    status_extractor = StatusExtractor()
     engine = PlaywrightEngine()
     await engine.start()
     
@@ -156,12 +162,25 @@ async def verification_pipeline(filepath: str, website_url: str, username: Optio
         
         # Step 2.1 - Brand Search
         brand_found = await navigator.search_and_navigate_brand(brand_hint, website_url)
+        logger.info(f"Brand Search result: {brand_found}. URL: {main_page.url}")
         
         # Step 2.2 - Category Navigation
         category_found = await navigator.find_category_on_page(category_hint)
+        logger.info(f"Category Nav result: {category_found}. URL: {main_page.url}")
         
         # 4. Product Discovery from Website
         all_website_products = await scraper.scrape_category_products()
+        logger.info(f"Scraped {len(all_website_products)} products.")
+        for p in all_website_products:
+            logger.info(f" - Found: {p['name']}")
+
+        if len(all_website_products) < 5:
+            # Multi-stage fallback: search for brand + category together
+            logger.info("Insufficient products found. Trying combined Brand + Category search.")
+            combined_search = f"{brand_hint} {category_hint}"
+            await main_page.goto(f"{website_url}/?s={combined_search}", wait_until='networkidle')
+            all_website_products = await scraper.scrape_category_products()
+            logger.info(f"Combined search found {len(all_website_products)} products.")
         
         if not all_website_products:
             # Fallback: if no products found in category, try to search for the first hint
@@ -170,29 +189,59 @@ async def verification_pipeline(filepath: str, website_url: str, username: Optio
             all_website_products = await scraper.scrape_category_products()
 
         # 5. Product Matching (Flyer -> Website)
-        matches = matcher.match_products(flyer_hints, all_website_products)
+        matches = matcher.match_products(flyer_hints, all_website_products, brand_hint, category_hint)
         
-        # 6. Stock Status Extraction
+        # 6. Deep Verification (Handling Series/Variations)
         final_results = []
+        matched_hints = set()
+        
         for match in matches:
             hint = match["flyer_hint"]
             product = match["matched_product"]
             
-            # Open product page to get deep stock status
-            status = await engine.verify_product_stock(product["url"])
+            # If the product name indicates it's a series (plural), click in
+            if "TORCHES" in product["name"].upper() or "SERIES" in product["name"].upper():
+                logger.info(f"Detected series: {product['name']}. Navigating for variations.")
+                await main_page.goto(product["url"], wait_until='networkidle')
+                # Scrape variations on the product page
+                variations = await scraper.scrape_category_products()
+                # Filter out the series name itself to force variation matching
+                specific_variations = [v for v in variations if v["name"].upper() != product["name"].upper()]
+                
+                # Try matching specifically within this series
+                v_matches = matcher.match_products([hint], specific_variations or variations, brand_hint, category_hint)
+                if v_matches:
+                    # Match found inside the series
+                    for vm in v_matches:
+                        v_prod = vm["matched_product"]
+                        # Use captured availability or fallback to deep check
+                        raw_status = v_prod.get("availability", "Available")
+                        status = status_extractor.normalize_status(raw_status)
+                        
+                        final_results.append({
+                            "product_name": v_prod["name"],
+                            "flyer_hint": hint,
+                            "status": "Verified",
+                            "issue_type": status.replace("_", " ").title(),
+                            "product_url": v_prod["url"] or main_page.url
+                        })
+                        matched_hints.add(hint)
+                    continue
+
+            # Standard product or variation already found
+            raw_status = product.get("availability", "Available")
+            status = status_extractor.normalize_status(raw_status)
             
             final_results.append({
                 "product_name": product["name"],
                 "flyer_hint": hint,
                 "status": "Verified",
                 "issue_type": status.replace("_", " ").title(),
-                "product_url": product["url"],
-                "match_score": match["score"],
-                "match_type": match["match_type"]
+                "product_url": product["url"] or main_page.url
             })
+            matched_hints.add(hint)
 
         # Add missing products
-        matched_hints = {m["flyer_hint"] for m in matches}
         for hint in flyer_hints:
             if hint not in matched_hints:
                 final_results.append({

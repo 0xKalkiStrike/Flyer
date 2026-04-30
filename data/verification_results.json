@@ -813,5 +813,2067 @@
       }
     ],
     "saved_at": "2026-04-30T09:49:02.937084Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "TORGH",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:12:43.981610Z",
+    "completed_at": "2026-04-30T10:13:04.099526Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:13:04.101215Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "TORGH",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:15:17.259785Z",
+    "completed_at": "2026-04-30T10:15:37.308382Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:15:37.310432Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "TORGH",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:16:58.421123Z",
+    "completed_at": "2026-04-30T10:17:16.452336Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:17:16.471972Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "TORGH",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:17:30.635390Z",
+    "completed_at": "2026-04-30T10:17:54.604899Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:17:54.618629Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "TORGH",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:18:29.845220Z",
+    "completed_at": "2026-04-30T10:18:49.660055Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:18:49.677811Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:19:17.703537Z",
+    "completed_at": "2026-04-30T10:19:43.046834Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:19:43.064404Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:20:18.051855Z",
+    "completed_at": "2026-04-30T10:20:38.764508Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:20:38.778777Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:23:28.157426Z",
+    "completed_at": "2026-04-30T10:23:50.675351Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:23:50.697953Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:27:00.936058Z",
+    "completed_at": "2026-04-30T10:27:25.605751Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:27:25.625623Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:28:04.290375Z",
+    "completed_at": "2026-04-30T10:28:34.256157Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:28:34.287367Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:29:20.326145Z",
+    "completed_at": "2026-04-30T10:29:47.284270Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:29:47.323537Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:30:17.477351Z",
+    "completed_at": "2026-04-30T10:30:52.915076Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:30:52.945349Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:39:12.164771Z",
+    "completed_at": "2026-04-30T10:39:42.606025Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 4,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 1
+      },
+      "errors": [
+        {
+          "product_name": "SMOXY CANNON TORCHES",
+          "flyer_hint": "CANNON GOLD",
+          "status": "Verified",
+          "issue_type": "Unknown",
+          "product_url": null,
+          "match_score": 72.72727272727273,
+          "match_type": "Fuzzy"
+        },
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "SMOXY CANNON TORCHES",
+        "flyer_hint": "CANNON GOLD",
+        "status": "Verified",
+        "issue_type": "Unknown",
+        "product_url": null,
+        "match_score": 72.72727272727273,
+        "match_type": "Fuzzy"
+      },
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:39:42.685464Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:40:23.346149Z",
+    "completed_at": "2026-04-30T10:40:58.861706Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:40:58.879927Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:42:30.108675Z",
+    "completed_at": "2026-04-30T10:42:58.410184Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:42:58.427592Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:43:40.990937Z",
+    "completed_at": "2026-04-30T10:44:16.887725Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:44:16.939966Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:45:08.599099Z",
+    "completed_at": "2026-04-30T10:45:40.107268Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:45:40.123229Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:51:29.596832Z",
+    "completed_at": "2026-04-30T10:52:07.859040Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:52:07.883438Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:55:53.822338Z",
+    "completed_at": "2026-04-30T10:56:26.548960Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 4,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0,
+        "Out Of Stock": 1
+      },
+      "errors": [
+        {
+          "product_name": "SMOXY CANNON TORCHES",
+          "flyer_hint": "CANNON GOLD",
+          "status": "Verified",
+          "issue_type": "Out Of Stock",
+          "product_url": "https://gothamdistro.com/product-category/big-torches/"
+        },
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "SMOXY CANNON TORCHES",
+        "flyer_hint": "CANNON GOLD",
+        "status": "Verified",
+        "issue_type": "Out Of Stock",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      },
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T10:56:26.624765Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T10:58:47.284589Z",
+    "completed_at": "2026-04-30T10:59:58.943028Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 0,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0,
+        "Out Of Stock": 5
+      },
+      "errors": [
+        {
+          "product_name": "SMOXY ALL PURPOSE PARTY STICK LIGHTER BLUE ( SL 121)",
+          "flyer_hint": "DELUXE BLUE",
+          "status": "Verified",
+          "issue_type": "Out Of Stock",
+          "product_url": "https://gothamdistro.com/product-category/lighters/"
+        },
+        {
+          "product_name": "SMOXY DELUXE TORCHES",
+          "flyer_hint": "DELUXE SILVER",
+          "status": "Verified",
+          "issue_type": "Out Of Stock",
+          "product_url": "https://gothamdistro.com/product-category/big-torches/"
+        },
+        {
+          "product_name": "SMOXY DELUXE TORCHES",
+          "flyer_hint": "DELUXE BLACK",
+          "status": "Verified",
+          "issue_type": "Out Of Stock",
+          "product_url": "https://gothamdistro.com/product-category/big-torches/"
+        },
+        {
+          "product_name": "SMOXY CANNON TORCHES",
+          "flyer_hint": "CANNON BLACK",
+          "status": "Verified",
+          "issue_type": "Out Of Stock",
+          "product_url": "https://gothamdistro.com/product-category/big-torches/"
+        },
+        {
+          "product_name": "SMOXY CANNON TORCHES",
+          "flyer_hint": "CANNON GOLD",
+          "status": "Verified",
+          "issue_type": "Out Of Stock",
+          "product_url": "https://gothamdistro.com/product-category/big-torches/"
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "SMOXY ALL PURPOSE PARTY STICK LIGHTER BLUE ( SL 121)",
+        "flyer_hint": "DELUXE BLUE",
+        "status": "Verified",
+        "issue_type": "Out Of Stock",
+        "product_url": "https://gothamdistro.com/product-category/lighters/"
+      },
+      {
+        "product_name": "SMOXY DELUXE TORCHES",
+        "flyer_hint": "DELUXE SILVER",
+        "status": "Verified",
+        "issue_type": "Out Of Stock",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      },
+      {
+        "product_name": "SMOXY DELUXE TORCHES",
+        "flyer_hint": "DELUXE BLACK",
+        "status": "Verified",
+        "issue_type": "Out Of Stock",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      },
+      {
+        "product_name": "SMOXY CANNON TORCHES",
+        "flyer_hint": "CANNON BLACK",
+        "status": "Verified",
+        "issue_type": "Out Of Stock",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      },
+      {
+        "product_name": "SMOXY CANNON TORCHES",
+        "flyer_hint": "CANNON GOLD",
+        "status": "Verified",
+        "issue_type": "Out Of Stock",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      }
+    ],
+    "saved_at": "2026-04-30T10:59:58.971341Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T11:04:55.080165Z",
+    "completed_at": "2026-04-30T11:05:45.660656Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 5,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 0,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": []
+    },
+    "results": [
+      {
+        "product_name": "SMOXY ALL PURPOSE PARTY STICK LIGHTER BLUE ( SL 121)",
+        "flyer_hint": "DELUXE BLUE",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/lighters/"
+      },
+      {
+        "product_name": "SMOXY DELUXE TORCHES",
+        "flyer_hint": "DELUXE SILVER",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      },
+      {
+        "product_name": "SMOXY DELUXE TORCHES",
+        "flyer_hint": "DELUXE BLACK",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      },
+      {
+        "product_name": "SMOXY CANNON TORCHES",
+        "flyer_hint": "CANNON BLACK",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      },
+      {
+        "product_name": "SMOXY CANNON TORCHES",
+        "flyer_hint": "CANNON GOLD",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      }
+    ],
+    "saved_at": "2026-04-30T11:05:45.679291Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T11:06:28.833886Z",
+    "completed_at": "2026-04-30T11:07:18.200627Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 5,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 0,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": []
+    },
+    "results": [
+      {
+        "product_name": "SMOXY ALL PURPOSE PARTY STICK LIGHTER BLUE ( SL 121)",
+        "flyer_hint": "DELUXE BLUE",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/lighters/"
+      },
+      {
+        "product_name": "SMOXY DELUXE TORCHES",
+        "flyer_hint": "DELUXE SILVER",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      },
+      {
+        "product_name": "SMOXY DELUXE TORCHES",
+        "flyer_hint": "DELUXE BLACK",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      },
+      {
+        "product_name": "SMOXY CANNON TORCHES",
+        "flyer_hint": "CANNON BLACK",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      },
+      {
+        "product_name": "SMOXY CANNON TORCHES",
+        "flyer_hint": "CANNON GOLD",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      }
+    ],
+    "saved_at": "2026-04-30T11:07:18.222786Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T11:14:08.822324Z",
+    "completed_at": "2026-04-30T11:14:51.940182Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T11:14:51.962714Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T11:19:43.744466Z",
+    "completed_at": "2026-04-30T11:21:12.522999Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 1,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 4,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "SMOXY ALL PURPOSE PARTY STICK LIGHTER BLUE ( SL 121)",
+        "flyer_hint": "DELUXE BLUE",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/lighters/"
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": null
+      }
+    ],
+    "saved_at": "2026-04-30T11:21:12.531743Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "brand": "SMOXY",
+    "category": "LIGHTER",
+    "started_at": "2026-04-30T11:28:23.618455Z",
+    "completed_at": "2026-04-30T11:29:11.025048Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 5,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 0,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": []
+    },
+    "results": [
+      {
+        "product_name": "SMOXY DELUXE TORCHES",
+        "flyer_hint": "DELUXE BLUE",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      },
+      {
+        "product_name": "SMOXY DELUXE TORCHES",
+        "flyer_hint": "DELUXE SILVER",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      },
+      {
+        "product_name": "SMOXY DELUXE TORCHES",
+        "flyer_hint": "DELUXE BLACK",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      },
+      {
+        "product_name": "SMOXY CANNON TORCHES",
+        "flyer_hint": "CANNON BLACK",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      },
+      {
+        "product_name": "SMOXY CANNON TORCHES",
+        "flyer_hint": "CANNON GOLD",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://gothamdistro.com/product-category/big-torches/"
+      }
+    ],
+    "saved_at": "2026-04-30T11:29:11.046815Z"
   }
 ]
