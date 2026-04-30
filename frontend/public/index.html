@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlyerScan AI | Autonomous Product Verification</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background: #0f172a; color: #f8fafc; }
+        .glass-card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 24px; }
+        .gradient-text { background: linear-gradient(135deg, #38bdf8, #818cf8); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .btn-primary { background: linear-gradient(135deg, #38bdf8, #818cf8); transition: all 0.3s ease; }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 20px -10px #38bdf8; }
+        .status-badge { padding: 4px 12px; border-radius: 99px; font-size: 12px; font-weight: 600; }
+        .status-available { background: rgba(34, 197, 94, 0.2); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.3); }
+        .status-outofstock { background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); }
+        .status-notfound { background: rgba(100, 116, 139, 0.2); color: #94a3b8; border: 1px solid rgba(100, 116, 139, 0.3); }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #475569; }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+    <div class="max-w-6xl mx-auto space-y-8">
+        <!-- Header -->
+        <header class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+            <div>
+                <h1 class="text-4xl font-extrabold tracking-tight">FlyerScan <span class="gradient-text">AI</span></h1>
+                <p class="text-slate-400 mt-2">Autonomous Product Verification & Stock Analysis</p>
+            </div>
+            <div class="flex items-center gap-3 bg-slate-800/50 p-2 rounded-2xl border border-slate-700">
+                <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                <span class="text-sm font-medium">System Online (Port 8002)</span>
+            </div>
+        </header>
+
+        <div class="grid lg:grid-cols-3 gap-8">
+            <!-- Configuration Panel -->
+            <div class="lg:col-span-1 space-y-6">
+                <div class="glass-card p-6">
+                    <h2 class="text-xl font-bold mb-6 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        Configuration
+                    </h2>
+                    <form id="verificationForm" class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Target Website</label>
+                            <input type="url" id="websiteUrl" placeholder="https://gothamdistro.com" class="w-full bg-slate-900/50 border border-slate-700 rounded-xl p-3 focus:outline-none focus:border-sky-500 transition-colors" value="https://gothamdistro.com" required>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Upload Flyer</label>
+                            <div class="relative group">
+                                <input type="file" id="flyer" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10" accept=".pdf,.png,.jpg,.jpeg">
+                                <div class="border-2 border-dashed border-slate-700 rounded-xl p-6 text-center group-hover:border-sky-500 transition-colors">
+                                    <svg class="w-8 h-8 mx-auto text-slate-500 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
+                                    <span class="text-sm text-slate-400" id="fileName">Click to upload flyer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <div class="absolute inset-0 flex items-center" aria-hidden="true">
+                                <div class="w-full border-t border-slate-700"></div>
+                            </div>
+                            <div class="relative flex justify-center text-xs uppercase tracking-widest">
+                                <span class="bg-slate-800 px-2 text-slate-500">OR</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Manual Products</label>
+                            <textarea id="products" placeholder="Enter products (one per line)" class="w-full bg-slate-900/50 border border-slate-700 rounded-xl p-3 h-24 focus:outline-none focus:border-sky-500 transition-colors"></textarea>
+                        </div>
+                        <button type="submit" class="w-full btn-primary py-4 rounded-xl font-bold text-lg flex justify-center items-center gap-2">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            Start Autonomous Scan
+                        </button>
+                    </form>
+                </div>
+
+                <div class="glass-card p-6">
+                    <h2 class="text-xl font-bold mb-4">Live Activity</h2>
+                    <div id="logs" class="space-y-2 max-h-48 overflow-y-auto text-xs font-mono text-slate-400">
+                        <p class="text-slate-500 italic">Waiting for process initiation...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Panel -->
+            <div class="lg:col-span-2 space-y-6">
+                <!-- Progress & Stats -->
+                <div class="glass-card p-6 grid md:grid-cols-4 gap-6">
+                    <div class="md:col-span-4">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-sm font-bold text-slate-400 uppercase">Process Progress</span>
+                            <span id="progressPercent" class="text-sm font-bold text-sky-400">0%</span>
+                        </div>
+                        <div class="w-full bg-slate-700 rounded-full h-3">
+                            <div id="progressBar" class="bg-gradient-to-r from-sky-400 to-indigo-500 h-3 rounded-full transition-all duration-500" style="width: 0%"></div>
+                        </div>
+                        <p id="statusText" class="text-xs text-slate-500 mt-2 italic">Idle</p>
+                    </div>
+                    <div class="bg-slate-900/40 p-4 rounded-2xl border border-slate-800">
+                        <span class="text-xs font-bold text-slate-500 uppercase block mb-1">Total Found</span>
+                        <span id="statTotal" class="text-2xl font-bold">0</span>
+                    </div>
+                    <div class="bg-slate-900/40 p-4 rounded-2xl border border-slate-800">
+                        <span class="text-xs font-bold text-green-500/80 uppercase block mb-1">In Stock</span>
+                        <span id="statAvailable" class="text-2xl font-bold text-green-400">0</span>
+                    </div>
+                    <div class="bg-slate-900/40 p-4 rounded-2xl border border-slate-800">
+                        <span class="text-xs font-bold text-red-500/80 uppercase block mb-1">Sold Out</span>
+                        <span id="statSoldOut" class="text-2xl font-bold text-red-400">0</span>
+                    </div>
+                    <div class="bg-slate-900/40 p-4 rounded-2xl border border-slate-800">
+                        <span class="text-xs font-bold text-slate-500 uppercase block mb-1">Not Found</span>
+                        <span id="statMissing" class="text-2xl font-bold">0</span>
+                    </div>
+                </div>
+
+                <!-- Detailed Table -->
+                <div class="glass-card overflow-hidden">
+                    <div class="p-6 border-b border-slate-700 flex justify-between items-center">
+                        <h2 class="text-xl font-bold">Extraction Results</h2>
+                        <button id="refreshSummary" class="text-xs font-bold bg-slate-700 hover:bg-slate-600 px-3 py-1.5 rounded-lg transition-colors">Refresh Dashboard</button>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left">
+                            <thead>
+                                <tr class="text-xs font-bold text-slate-500 uppercase tracking-widest border-b border-slate-800">
+                                    <th class="px-6 py-4">Product Name</th>
+                                    <th class="px-6 py-4">Status</th>
+                                    <th class="px-6 py-4">Type</th>
+                                    <th class="px-6 py-4">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="resultsBody" class="divide-y divide-slate-800/50">
+                                <!-- Dynamic results -->
+                                <tr id="emptyState">
+                                    <td colspan="4" class="px-6 py-12 text-center text-slate-500 italic">No data available. Run a scan to see autonomous verification results.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE_URL = window.location.origin;
+        const form = document.getElementById('verificationForm');
+        const fileInput = document.getElementById('flyer');
+        const fileName = document.getElementById('fileName');
+        const logs = document.getElementById('logs');
+        const resultsBody = document.getElementById('resultsBody');
+        const progressBar = document.getElementById('progressBar');
+        const progressPercent = document.getElementById('progressPercent');
+        const statusText = document.getElementById('statusText');
+
+        fileInput.addEventListener('change', e => {
+            if (e.target.files[0]) fileName.textContent = e.target.files[0].name;
+        });
+
+        const addLog = (msg, isError = false) => {
+            const p = document.createElement('p');
+            p.className = isError ? 'text-red-400' : 'text-slate-400';
+            p.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
+            logs.appendChild(p);
+            logs.scrollTop = logs.scrollHeight;
+        };
+
+        form.addEventListener('submit', async function (e) {
+            e.preventDefault();
+            
+            const flyerFile = fileInput.files[0];
+            const productsText = document.getElementById('products').value.trim();
+            const websiteUrl = document.getElementById('websiteUrl').value;
+
+            if (!flyerFile && !productsText) {
+                alert('Please provide a flyer or manual list.');
+                return;
+            }
+
+            resultsBody.innerHTML = '';
+            addLog('Initializing autonomous scan sequence...');
+            statusText.textContent = 'Preparing browser environment...';
+            progressBar.style.width = '10%';
+            progressPercent.textContent = '10%';
+
+            const formData = new FormData();
+            if (flyerFile) formData.append('flyer', flyerFile);
+            formData.append('website_url', websiteUrl);
+            if (productsText) formData.append('products', productsText);
+
+            const endpoint = (flyerFile) ? '/api/start-verification' : '/api/start-verification-manual';
+
+            try {
+                const response = await fetch(`${API_BASE_URL}${endpoint}`, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+                if (!response.ok) throw new Error(result.detail || 'Service error');
+
+                addLog('Autonomous Scan Process Started successfully.');
+                addLog('Developer Chrome opened. Searching products...');
+                statusText.textContent = 'Scanning live website...';
+                progressBar.style.width = '40%';
+                progressPercent.textContent = '40%';
+                
+                // Start polling for results
+                pollForResults();
+            } catch (error) {
+                addLog(`CRITICAL ERROR: ${error.message}`, true);
+                statusText.textContent = 'Process aborted.';
+                progressBar.style.width = '0%';
+            }
+        });
+
+        async function pollForResults() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/results?latest=true`);
+                const data = await response.json();
+
+                if (data && data.results) {
+                    updateDashboard(data);
+                    if (data.status === 'completed' || data.results.length > 0) {
+                        progressBar.style.width = '100%';
+                        progressPercent.textContent = '100%';
+                        statusText.textContent = 'Autonomous Scan Complete.';
+                        addLog('Full summary generated and dashboard updated.');
+                        return; // Stop polling
+                    }
+                }
+                setTimeout(pollForResults, 5000);
+            } catch (e) {
+                console.error('Polling error', e);
+            }
+        }
+
+        function updateDashboard(data) {
+            const results = data.results || [];
+            const summary = data.summary || { counts: {} };
+            
+            document.getElementById('statTotal').textContent = results.length;
+            document.getElementById('statAvailable').textContent = summary.counts['Available'] || 0;
+            document.getElementById('statSoldOut').textContent = summary.counts['Out of Stock'] || 0;
+            document.getElementById('statMissing').textContent = (summary.counts['Product Missing'] || 0) + (summary.counts['Product Missing (No Match)'] || 0);
+
+            if (results.length > 0) {
+                resultsBody.innerHTML = results.map(r => {
+                    let statusClass = 'status-notfound';
+                    if (r.issue_type === 'Available') statusClass = 'status-available';
+                    if (r.issue_type === 'Out of Stock') statusClass = 'status-outofstock';
+
+                    return `
+                        <tr class="hover:bg-slate-800/30 transition-colors">
+                            <td class="px-6 py-4 font-medium">${r.product_name}</td>
+                            <td class="px-6 py-4">
+                                <span class="status-badge ${statusClass}">${r.status}</span>
+                            </td>
+                            <td class="px-6 py-4 text-xs text-slate-400 font-medium uppercase">${r.issue_type}</td>
+                            <td class="px-6 py-4">
+                                <a href="${r.product_url}" target="_blank" class="text-sky-400 hover:text-sky-300 text-xs font-bold underline">View Source</a>
+                            </td>
+                        </tr>
+                    `;
+                }).join('');
+            }
+        }
+
+        document.getElementById('refreshSummary').onclick = () => {
+            addLog('Refreshing dashboard from latest JSON store...');
+            pollForResults();
+        };
+    </script>
+</body>
+</html>

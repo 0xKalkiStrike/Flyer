@@ -1,0 +1,21 @@
+Flyer/
+│
+├── backend/
+│   ├── api/
+│   ├── automation/
+│   ├── ocr/
+│   ├── database/
+│   ├── queue/
+│   ├── reports/
+│   ├── utils/
+│   ├── main.py
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│
+├── uploads/
+├── screenshots/
+├── reports/
+├── logs/
+└── README.md

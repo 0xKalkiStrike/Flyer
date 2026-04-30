@@ -1,0 +1,817 @@
+[
+  {
+    "flyer_name": "Manual Input",
+    "website_url": "https://www.amazon.com",
+    "login_used": false,
+    "started_at": "2026-04-29T14:31:47.112978Z",
+    "completed_at": "2026-04-29T14:31:47.112989Z",
+    "summary": {
+      "total_products": 3,
+      "counts": {
+        "Available": 1,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 0,
+        "Restricted": 0,
+        "Broken Product Page": 2,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "Samsung Galaxy S24",
+          "status": "Failed",
+          "issue_type": "Broken Product Page",
+          "product_url": null,
+          "screenshot_path": "screenshots/error_Samsung_Galaxy_S24.png"
+        },
+        {
+          "product_name": "MacBook Air M3",
+          "status": "Failed",
+          "issue_type": "Broken Product Page",
+          "product_url": null,
+          "screenshot_path": "screenshots/error_MacBook_Air_M3.png"
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "iPhone 15",
+        "status": "Verified",
+        "issue_type": "Available",
+        "product_url": "https://www.amazon.com/search?q=iPhone+15",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "Samsung Galaxy S24",
+        "status": "Failed",
+        "issue_type": "Broken Product Page",
+        "product_url": null,
+        "screenshot_path": "screenshots/error_Samsung_Galaxy_S24.png"
+      },
+      {
+        "product_name": "MacBook Air M3",
+        "status": "Failed",
+        "issue_type": "Broken Product Page",
+        "product_url": null,
+        "screenshot_path": "screenshots/error_MacBook_Air_M3.png"
+      }
+    ],
+    "saved_at": "2026-04-29T14:31:47.114403Z"
+  },
+  {
+    "flyer_name": "Manual Input",
+    "website_url": "https://www.amazon.com",
+    "login_used": false,
+    "started_at": "2026-04-29T15:30:04.787157Z",
+    "completed_at": "2026-04-29T15:30:04.787339Z",
+    "summary": {
+      "total_products": 2,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 0,
+        "Restricted": 0,
+        "Broken Product Page": 2,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "Test Product 1",
+          "status": "Failed",
+          "issue_type": "Broken Product Page",
+          "product_url": null,
+          "screenshot_path": "screenshots/error_Test_Product_1.png"
+        },
+        {
+          "product_name": "Test Product 2",
+          "status": "Failed",
+          "issue_type": "Broken Product Page",
+          "product_url": null,
+          "screenshot_path": "screenshots/error_Test_Product_2.png"
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "Test Product 1",
+        "status": "Failed",
+        "issue_type": "Broken Product Page",
+        "product_url": null,
+        "screenshot_path": "screenshots/error_Test_Product_1.png"
+      },
+      {
+        "product_name": "Test Product 2",
+        "status": "Failed",
+        "issue_type": "Broken Product Page",
+        "product_url": null,
+        "screenshot_path": "screenshots/error_Test_Product_2.png"
+      }
+    ],
+    "saved_at": "2026-04-29T15:30:04.798828Z"
+  },
+  {
+    "flyer_name": "Manual Input",
+    "website_url": "https://www.amazon.com",
+    "login_used": false,
+    "started_at": "2026-04-29T15:33:33.602232Z",
+    "completed_at": "2026-04-29T15:33:33.602257Z",
+    "summary": {
+      "total_products": 2,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 0,
+        "Restricted": 0,
+        "Broken Product Page": 2,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "Manual Test 1",
+          "status": "Failed",
+          "issue_type": "Broken Product Page",
+          "product_url": null,
+          "screenshot_path": "screenshots/error_Manual_Test_1.png"
+        },
+        {
+          "product_name": "Manual Test 2",
+          "status": "Failed",
+          "issue_type": "Broken Product Page",
+          "product_url": null,
+          "screenshot_path": "screenshots/error_Manual_Test_2.png"
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "Manual Test 1",
+        "status": "Failed",
+        "issue_type": "Broken Product Page",
+        "product_url": null,
+        "screenshot_path": "screenshots/error_Manual_Test_1.png"
+      },
+      {
+        "product_name": "Manual Test 2",
+        "status": "Failed",
+        "issue_type": "Broken Product Page",
+        "product_url": null,
+        "screenshot_path": "screenshots/error_Manual_Test_2.png"
+      }
+    ],
+    "saved_at": "2026-04-29T15:33:33.621513Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com/",
+    "login_used": false,
+    "started_at": "2026-04-29T15:56:20.381034Z",
+    "completed_at": "2026-04-29T15:56:20.381050Z",
+    "summary": {
+      "total_products": 7,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 7,
+        "Discontinued": 0,
+        "Product Missing": 0,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "2   DELUXE BLUE     DELUXE SILVER      DELUXEBLACK 22",
+          "status": "Verified",
+          "issue_type": "Out of Stock",
+          "product_url": "https://gothamdistro.com/?q=2%20%20%20DELUXE%20BLUE%20%20%20%20%20DELUXE%20SILVER%20%20%20%20%20%20DELUXEBLACK%2022",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "C4   CGD  C48  2",
+          "status": "Verified",
+          "issue_type": "Out of Stock",
+          "product_url": "https://gothamdistro.com/?q=C4%20%20%20CGD%20%20C48%20%202",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "ee ue  8 L",
+          "status": "Verified",
+          "issue_type": "Out of Stock",
+          "product_url": "https://gothamdistro.com/?q=ee%20ue%20%208%20L",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "on 2 SBNNON BLACK   CANNON GOLD",
+          "status": "Verified",
+          "issue_type": "Out of Stock",
+          "product_url": "https://gothamdistro.com/?q=on%202%20SBNNON%20BLACK%20%20%20CANNON%20GOLD",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "ON EOE   CELL 1 16  66E- 7949  Pe",
+          "status": "Verified",
+          "issue_type": "Out of Stock",
+          "product_url": "https://gothamdistro.com/?q=ON%20EOE%20%20%20CELL%201%2016%20%2066E-%207949%20%20Pe",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "ee eo OFFICE   1  516  342-9678 as vo ye",
+          "status": "Verified",
+          "issue_type": "Out of Stock",
+          "product_url": "https://gothamdistro.com/?q=ee%20eo%20OFFICE%20%20%201%20%20516%20%20342-9678%20as%20vo%20ye",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "lr  n-- www gothamdistro com  fer",
+          "status": "Verified",
+          "issue_type": "Out of Stock",
+          "product_url": "https://gothamdistro.com/?q=lr%20%20n--%20www%20gothamdistro%20com%20%20fer",
+          "screenshot_path": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "2   DELUXE BLUE     DELUXE SILVER      DELUXEBLACK 22",
+        "status": "Verified",
+        "issue_type": "Out of Stock",
+        "product_url": "https://gothamdistro.com/?q=2%20%20%20DELUXE%20BLUE%20%20%20%20%20DELUXE%20SILVER%20%20%20%20%20%20DELUXEBLACK%2022",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "C4   CGD  C48  2",
+        "status": "Verified",
+        "issue_type": "Out of Stock",
+        "product_url": "https://gothamdistro.com/?q=C4%20%20%20CGD%20%20C48%20%202",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "ee ue  8 L",
+        "status": "Verified",
+        "issue_type": "Out of Stock",
+        "product_url": "https://gothamdistro.com/?q=ee%20ue%20%208%20L",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "on 2 SBNNON BLACK   CANNON GOLD",
+        "status": "Verified",
+        "issue_type": "Out of Stock",
+        "product_url": "https://gothamdistro.com/?q=on%202%20SBNNON%20BLACK%20%20%20CANNON%20GOLD",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "ON EOE   CELL 1 16  66E- 7949  Pe",
+        "status": "Verified",
+        "issue_type": "Out of Stock",
+        "product_url": "https://gothamdistro.com/?q=ON%20EOE%20%20%20CELL%201%2016%20%2066E-%207949%20%20Pe",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "ee eo OFFICE   1  516  342-9678 as vo ye",
+        "status": "Verified",
+        "issue_type": "Out of Stock",
+        "product_url": "https://gothamdistro.com/?q=ee%20eo%20OFFICE%20%20%201%20%20516%20%20342-9678%20as%20vo%20ye",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "lr  n-- www gothamdistro com  fer",
+        "status": "Verified",
+        "issue_type": "Out of Stock",
+        "product_url": "https://gothamdistro.com/?q=lr%20%20n--%20www%20gothamdistro%20com%20%20fer",
+        "screenshot_path": null
+      }
+    ],
+    "saved_at": "2026-04-29T15:56:20.393730Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "login_used": false,
+    "started_at": "2026-04-30T05:12:17.571485Z",
+    "completed_at": "2026-04-30T05:14:57.263827Z",
+    "summary": {
+      "total_products": 16,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 16,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "GOTHA",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=GOTHA",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "DISTRIBUTORS",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=DISTRIBUTORS",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "eer j",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=eer+j",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "jhiva",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=jhiva",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "dane ore",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=dane+ore",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=DELUXE+BLUE",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "CuLas",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=CuLas",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "Si4 08",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=Si4+08",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "SSS7/",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=SSS7/",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "siege",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=siege",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "ome anil",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=ome+anil",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "celioesa WERE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=celioesa+WERE",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "CANNON",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=CANNON",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "BLACK GANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=BLACK+GANNON+GOLD",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "618 28",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=618+28",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "othamdlistro com",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=othamdlistro+com",
+          "screenshot_path": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "GOTHA",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=GOTHA",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "DISTRIBUTORS",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=DISTRIBUTORS",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "eer j",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=eer+j",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "jhiva",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=jhiva",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "dane ore",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=dane+ore",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=DELUXE+BLUE",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "CuLas",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=CuLas",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "Si4 08",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=Si4+08",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "SSS7/",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=SSS7/",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "siege",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=siege",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "ome anil",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=ome+anil",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "celioesa WERE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=celioesa+WERE",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "CANNON",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=CANNON",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "BLACK GANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=BLACK+GANNON+GOLD",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "618 28",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=618+28",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "othamdlistro com",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=othamdlistro+com",
+        "screenshot_path": null
+      }
+    ],
+    "saved_at": "2026-04-30T05:14:57.266577Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "login_used": false,
+    "started_at": "2026-04-30T09:20:39.997388Z",
+    "completed_at": "2026-04-30T09:21:35.269158Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=DELUXE+BLUE",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=DELUXE+SILVER",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=DELUXE+BLACK",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=CANNON+BLACK",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=CANNON+GOLD",
+          "screenshot_path": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=DELUXE+BLUE",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=DELUXE+SILVER",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=DELUXE+BLACK",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=CANNON+BLACK",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=CANNON+GOLD",
+        "screenshot_path": null
+      }
+    ],
+    "saved_at": "2026-04-30T09:21:35.294987Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "login_used": false,
+    "started_at": "2026-04-30T09:28:08.320194Z",
+    "completed_at": "2026-04-30T09:29:14.399927Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=DELUXE+BLUE",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=DELUXE+SILVER",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=DELUXE+BLACK",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=CANNON+BLACK",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=CANNON+GOLD",
+          "screenshot_path": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=DELUXE+BLUE",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=DELUXE+SILVER",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=DELUXE+BLACK",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=CANNON+BLACK",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=CANNON+GOLD",
+        "screenshot_path": null
+      }
+    ],
+    "saved_at": "2026-04-30T09:29:14.410823Z"
+  },
+  {
+    "flyer_name": "smoxy-121-125.jpg",
+    "website_url": "https://gothamdistro.com",
+    "login_used": false,
+    "started_at": "2026-04-30T09:48:11.023796Z",
+    "completed_at": "2026-04-30T09:49:02.934299Z",
+    "summary": {
+      "total_products": 5,
+      "counts": {
+        "Available": 0,
+        "Out of Stock": 0,
+        "Discontinued": 0,
+        "Product Missing": 5,
+        "Restricted": 0,
+        "Broken Product Page": 0,
+        "Unknown": 0
+      },
+      "errors": [
+        {
+          "product_name": "DELUXE BLUE",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=TORGH+LIGHTER+DELUXE+BLUE",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "DELUXE SILVER",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=TORGH+LIGHTER+DELUXE+SILVER",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "DELUXE BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=TORGH+LIGHTER+DELUXE+BLACK",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "CANNON BLACK",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=TORGH+LIGHTER+CANNON+BLACK",
+          "screenshot_path": null
+        },
+        {
+          "product_name": "CANNON GOLD",
+          "status": "Not Found",
+          "issue_type": "Product Missing",
+          "product_url": "https://gothamdistro.com/?s=TORGH+LIGHTER+CANNON+GOLD",
+          "screenshot_path": null
+        }
+      ]
+    },
+    "results": [
+      {
+        "product_name": "DELUXE BLUE",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=TORGH+LIGHTER+DELUXE+BLUE",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "DELUXE SILVER",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=TORGH+LIGHTER+DELUXE+SILVER",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "DELUXE BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=TORGH+LIGHTER+DELUXE+BLACK",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "CANNON BLACK",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=TORGH+LIGHTER+CANNON+BLACK",
+        "screenshot_path": null
+      },
+      {
+        "product_name": "CANNON GOLD",
+        "status": "Not Found",
+        "issue_type": "Product Missing",
+        "product_url": "https://gothamdistro.com/?s=TORGH+LIGHTER+CANNON+GOLD",
+        "screenshot_path": null
+      }
+    ],
+    "saved_at": "2026-04-30T09:49:02.937084Z"
+  }
+]
