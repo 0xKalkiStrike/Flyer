@@ -117,71 +117,106 @@ def build_summary(results: list[dict]) -> dict:
     return summary
 
 
-async def verification_pipeline(filepath: str, website_url: str, username: Optional[str], password: Optional[str], products: Optional[str] = None):
+async def verification_pipeline(filepath: str, website_url: str, username: Optional[str], password: Optional[str], manual_products: Optional[str] = None):
+    """The Autonomous Discovery Pipeline: Website-driven verification."""
+    from .navigator import WebsiteNavigator
+    from .scraper import ProductScraper
+    from .matcher import ProductMatcher
+    from .status_extractor import StatusExtractor
+    
     start_time = datetime.utcnow()
-    if products:
-        # Use manually provided products
-        product_list = [p.strip() for p in products.split('\n') if p.strip()]
-        if not product_list:
-            product_list = ["Unknown Product"]
-    elif filepath:
-        # Extract products from flyer using OCR
+    
+    # 1. OCR Discovery (Hints Only)
+    brand_hint = "Unknown"
+    category_hint = "Unknown"
+    flyer_hints = []
+    
+    if filepath:
         extractor = OCRExtractor()
-        file_suffix = filepath.lower().split(".")[-1]
-        
-        if file_suffix == "pdf":
-            raw_lines = extractor.extract_from_pdf(filepath)
-            product_list = cleanup_product_text(raw_lines)[:30]
-            search_prefix = ""
-        else:
-            discovery = extractor.extract_from_image(filepath)
-            products_detected = discovery.get("products", [])
-            brand = discovery.get("brand", "Unknown")
-            category = discovery.get("category", "Unknown")
-            
-            # Combine brand and category for better search results
-            search_prefix = ""
-            if brand != "Unknown":
-                search_prefix += f"{brand} "
-            if category != "Unknown":
-                search_prefix += f"{category} "
-                
-            product_list = products_detected if products_detected else ["Unknown Product"]
+        discovery = extractor.extract_from_image(filepath)
+        brand_hint = discovery.get("brand_hint", "Unknown")
+        category_hint = discovery.get("category_hint", "Unknown")
+        flyer_hints = discovery.get("product_hints", [])
+    elif manual_products:
+        flyer_hints = [p.strip() for p in manual_products.split('\n') if p.strip()]
+    
+    if not flyer_hints:
+        raise RuntimeError("No product hints found from flyer or manual input.")
 
-        if not product_list:
-            product_list = ["Unknown Product"]
-    else:
-        raise RuntimeError("Either upload a flyer for OCR or provide a manual product list.")
-
+    # 2. Start Playwright
     engine = PlaywrightEngine()
     await engine.start()
+    
+    try:
+        # 3. Navigate to Brand and Category
+        main_page = await engine.context.new_page()
+        navigator = WebsiteNavigator(main_page)
+        scraper = ProductScraper(main_page)
+        matcher = ProductMatcher()
+        
+        # Step 2.1 - Brand Search
+        brand_found = await navigator.search_and_navigate_brand(brand_hint, website_url)
+        
+        # Step 2.2 - Category Navigation
+        category_found = await navigator.find_category_on_page(category_hint)
+        
+        # 4. Product Discovery from Website
+        all_website_products = await scraper.scrape_category_products()
+        
+        if not all_website_products:
+            # Fallback: if no products found in category, try to search for the first hint
+            logger.info("No products in category, falling back to direct search.")
+            await main_page.goto(f"{website_url}/?s={flyer_hints[0]}", wait_until='networkidle')
+            all_website_products = await scraper.scrape_category_products()
 
-    login_used = False
-    if username and password:
-        login_used = await engine.login(website_url, username, password)
+        # 5. Product Matching (Flyer -> Website)
+        matches = matcher.match_products(flyer_hints, all_website_products)
+        
+        # 6. Stock Status Extraction
+        final_results = []
+        for match in matches:
+            hint = match["flyer_hint"]
+            product = match["matched_product"]
+            
+            # Open product page to get deep stock status
+            status = await engine.verify_product_stock(product["url"])
+            
+            final_results.append({
+                "product_name": product["name"],
+                "flyer_hint": hint,
+                "status": "Verified",
+                "issue_type": status.replace("_", " ").title(),
+                "product_url": product["url"],
+                "match_score": match["score"],
+                "match_type": match["match_type"]
+            })
 
-    results = []
-    for product in product_list:
-        # Use discovery prefix if available
-        search_query = f"{search_prefix}{product}" if search_prefix else product
-        res = await engine.verify_product(search_query, website_url)
-        # Restore original product name for the report
-        res["product_name"] = product
-        results.append(res)
+        # Add missing products
+        matched_hints = {m["flyer_hint"] for m in matches}
+        for hint in flyer_hints:
+            if hint not in matched_hints:
+                final_results.append({
+                    "product_name": hint,
+                    "status": "Not Found",
+                    "issue_type": "Product Missing",
+                    "product_url": None
+                })
 
-    await engine.close()
+        record = {
+            "flyer_name": Path(filepath).name if filepath else "Manual Input",
+            "website_url": website_url,
+            "brand": brand_hint,
+            "category": category_hint,
+            "started_at": start_time.isoformat() + "Z",
+            "completed_at": datetime.utcnow().isoformat() + "Z",
+            "summary": build_summary(final_results),
+            "results": final_results
+        }
+        append_verification_result(record)
+        return record
 
-    record = {
-        "flyer_name": Path(filepath).name if filepath else "Manual Input",
-        "website_url": website_url,
-        "login_used": login_used,
-        "started_at": start_time.isoformat() + "Z",
-        "completed_at": datetime.utcnow().isoformat() + "Z",
-        "summary": build_summary(results),
-        "results": results
-    }
-    append_verification_result(record)
-    return record
+    finally:
+        await engine.close()
 
 
 @router.post("/start-verification")

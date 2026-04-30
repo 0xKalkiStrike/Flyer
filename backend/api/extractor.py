@@ -162,21 +162,22 @@ class OCRExtractor:
             if best_anchor != -1:
                 anchor_to_words[best_anchor].append((tx, text))
 
-        # 4. Finalize
-        extracted_products = []
+        # 4. Finalize Hints
+        product_hints = []
         sorted_anchor_indices = sorted(range(len(anchors)), key=lambda i: (anchors[i][1] // 30, anchors[i][0]))
-        seen_names = set()
+        seen_hints = set()
         for a_idx in sorted_anchor_indices:
             words = sorted(anchor_to_words[a_idx], key=lambda x: x[0])
-            name = " ".join([w[1] for w in words])
-            if name and len(name) > 3:
-                name = re.sub(r'[^A-Za-z0-9 \-&]', '', name).strip()
-                if name and name.lower() not in seen_names:
-                    extracted_products.append(name)
-                    seen_names.add(name.lower())
+            hint = " ".join([w[1] for w in words])
+            if hint and len(hint) > 2:
+                # Basic cleanup
+                hint = re.sub(r'[^A-Za-z0-9 \-&]', '', hint).strip()
+                if hint and hint.lower() not in seen_hints:
+                    product_hints.append(hint)
+                    seen_hints.add(hint.lower())
 
         return {
-            "brand": brand,
-            "category": category,
-            "products": extracted_products
+            "brand_hint": brand,
+            "category_hint": category,
+            "product_hints": product_hints
         }

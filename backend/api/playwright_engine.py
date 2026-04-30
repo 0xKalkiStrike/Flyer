@@ -104,17 +104,44 @@ class PlaywrightEngine:
                     else:
                         result["status"] = "Verified"
                         result["issue_type"] = "Available"
-                
-            result["product_url"] = page.url
-        except Exception as e:
-            logger.error(f"Failed to verify {product_name}: {e}")
-            result["issue_type"] = "Broken Product Page"
-            os.makedirs("screenshots", exist_ok=True)
-            screenshot_path = f"screenshots/error_{re.sub(r'[^a-zA-Z0-9]', '_', product_name)}.png"
-            await page.screenshot(path=screenshot_path)
-            result["screenshot_path"] = screenshot_path
         finally:
             await page.close()
-            await asyncio.sleep(1)
+            await asyncio.sleep(0.5)
             
-        return result
+        return result
+
+    async def verify_product_stock(self, product_url: str) -> str:
+        """Navigate to a specific product page and extract normalized availability."""
+        page = await self.context.new_page()
+        try:
+            await page.goto(product_url, wait_until='networkidle', timeout=20000)
+            
+            # Common selectors for availability
+            selectors = [
+                ".stock", 
+                ".availability", 
+                ".ast-stock-status", 
+                ".woocommerce-variation-availability",
+                "p.stock.out-of-stock",
+                "p.stock.in-stock"
+            ]
+            
+            status_text = ""
+            for selector in selectors:
+                el = await page.query_selector(selector)
+                if el:
+                    status_text = await el.inner_text()
+                    break
+            
+            if not status_text:
+                # Fallback to page content
+                status_text = await page.inner_text("body")
+            
+            from .status_extractor import StatusExtractor
+            return StatusExtractor.normalize_status(status_text)
+        except Exception as e:
+            logger.error(f"Stock check failed for {product_url}: {e}")
+            return "UNKNOWN"
+        finally:
+            await page.close()
+            await asyncio.sleep(0.5)
