@@ -63,16 +63,20 @@ class WebsiteNavigator:
             link_data = []
             
             for selector in selectors:
-                containers = await self.page.query_selector_all(selector)
-                for container in containers:
-                    links = await container.query_selector_all("a")
-                    for link in links:
-                        try:
-                            text = await link.inner_text()
-                            if text and len(text.strip()) > 2:
-                                link_data.append({"text": text.strip(), "handle": link})
-                        except Exception:
-                            continue # Context might have been destroyed for this link
+                try:
+                    containers = await self.page.query_selector_all(selector)
+                    for container in containers:
+                        links = await container.query_selector_all("a")
+                        for link in links:
+                            try:
+                                text = await link.inner_text()
+                                if text and len(text.strip()) > 2:
+                                    link_data.append({"text": text.strip(), "handle": link})
+                            except Exception:
+                                continue 
+                except Exception as e:
+                    logger.warning(f"Selector {selector} failed due to navigation/context: {e}")
+                    continue
             
             # If no targeted links, try all links
             if not link_data:
